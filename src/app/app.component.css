@@ -1,0 +1,27 @@
+/* Styling for the container */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the header */
+header {
+    height: 80px; /* Reduced height for a more compact header */
+    background-color: #3498db; /* Bright blue background for the header */
+    color: #ffffff; /* White text color for contrast */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    padding: 0 20px; /* Horizontal padding for spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    border-bottom: 2px solid #2980b9; /* Darker blue border for accent */
+}
+
+/* Optional: Add some styling for header text */
+header h1 {
+    font-size: 1.8em; /* Adjusted font size for better balance */
+    margin: 0;
+}

@@ -1,0 +1,40 @@
+header {
+  padding: 1rem;
+  background-color: #f0f4f8; /* Light background for a clean look */
+  margin: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Stronger shadow for more depth */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centered navigation items */
+}
+
+li {
+  margin: 0 15px; /* Increased spacing between the items */
+}
+
+li a {
+  display: block;
+  color: #2c3e50; /* Dark text color for better contrast */
+  text-align: center;
+  padding: 12px 24px; /* Adjusted padding for balance */
+  text-decoration: none;
+  border-radius: 6px; /* Slightly more rounded corners */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+li a:hover:not(.active) {
+  background-color: #e0e0e0; /* Light gray hover background color */
+  transform: translateY(-5px); /* More pronounced lift effect on hover */
+}
+
+.active {
+  background-color: #3498db; /* Bright blue for the active link */
+  color: #ffffff;
+  font-weight: bold; /* Bold text for active link */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Stronger shadow for active link */
+}

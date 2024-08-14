@@ -1,0 +1,10 @@
+p {
+    padding: 1.5rem; /* Slightly reduced padding for a more compact look */
+    text-align: left; /* Align text to the left for a more traditional look */
+    background-color: #f8f9fa; /* Light background for a softer appearance */
+    margin: 0;
+    color: #333; /* Dark text color for readability */
+    border-left: 4px solid #3498db; /* Blue left border for a stylish accent */
+    font-size: 1rem; /* Standard font size for better readability */
+    border-radius: 5px; /* Rounded corners for a softer look */
+}
